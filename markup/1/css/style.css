@@ -1,0 +1,151 @@
+body {
+	background-color: #f9f9f9;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+div.wrapper {
+	width: 1060px;
+	background-color: #ffffff;
+	border-left: 2px solid #dbdbdb;
+	border-right: 2px solid #dbdbdb;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 50px 48px 60px 46px;
+}
+
+header {margin-bottom: 40px;}
+
+header h1 {
+	margin-bottom: 40px;
+	font-size: 40px;
+	color: #141414;
+}
+
+header nav {
+	height: 40px;
+	background: linear-gradient(#5e5e5e, #444343); 
+}
+
+header li {
+	display: inline-block;
+	padding: 0 20px;
+	margin: 0 20px;
+}
+header li:first-child {
+	padding-left: 24px;
+	margin-left: 0;
+}
+
+header a {
+	line-height: 40px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+main {
+	margin-bottom: 40px;
+}
+
+main aside {
+	float: left;
+	margin-right: 42px;
+}
+
+main nav {
+	width: 240px;
+	box-sizing: border-box;
+	border: 1px solid #c8c8c8; 
+}
+
+main li {
+	height: 40px;
+	border-bottom: 1px solid #c8c8c8;
+	padding-left: 24px;
+}
+
+main li:last-child {
+	border-bottom: none;
+}
+
+main a {
+	line-height: 40px;
+	text-decoration: none;
+	color: #656363;
+}
+
+main article {
+	width: 680px;
+	float: right;
+}
+
+main img {
+	border: 1px solid #c8c8c8;
+	margin-bottom: 40px;
+}
+
+main p {
+	padding-left: 24px;
+	padding-right: 28px;
+	line-height: 28px;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer {
+	margin-bottom: 60px;
+}
+
+footer {
+	height: 40px;
+	background: #e1e1e1; 
+}
+
+footer nav {
+	display: inline-block;
+}
+
+footer li {
+	display: inline-block;
+	padding: 0 20px;
+	margin: 0 20px;
+}
+footer li:first-child {
+	padding-left: 24px;
+	margin-left: 0;
+}
+
+footer a {
+	line-height: 40px;
+	text-decoration: none;
+	color: #2c2c2c;
+}
+
+footer span {
+	float: right;
+	line-height: 40px;
+	padding-right: 25px;
+	color: #2c2c2c;
+}
+
+.active-top {
+	background: linear-gradient(#4a4a4a, #2e2e2e);
+	border-left: 1px solid #838383;	 
+	border-right: 1px solid #838383;	 
+}
+
+.active-bottom {
+	text-decoration: underline;
+}
+
+.active-aside {
+	padding-left: 35px;
+	background: #f9f9f9;
+}
+
+
+
