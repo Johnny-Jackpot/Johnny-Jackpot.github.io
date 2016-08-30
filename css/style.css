@@ -132,17 +132,17 @@ footer span {
 	color: #2c2c2c;
 }
 
-.active-top {
+.active-top, header li:hover {
 	background: linear-gradient(#4a4a4a, #2e2e2e);
 	border-left: 1px solid #838383;	 
-	border-right: 1px solid #838383;	 
+	border-right: 1px solid #838383;
 }
 
-.active-bottom {
+.active-bottom, footer li:hover{
 	text-decoration: underline;
 }
 
-.active-aside {
+.active-aside, main li:hover{
 	padding-left: 35px;
 	background: #f9f9f9;
 }
