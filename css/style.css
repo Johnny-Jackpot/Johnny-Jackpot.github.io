@@ -33,7 +33,6 @@ header li {
 	margin: 0 20px;
 }
 header li:first-child {
-	padding-left: 24px;
 	margin-left: 0;
 }
 
@@ -115,7 +114,6 @@ footer li {
 	margin: 0 20px;
 }
 footer li:first-child {
-	padding-left: 24px;
 	margin-left: 0;
 }
 
@@ -136,15 +134,19 @@ footer span {
 	background: linear-gradient(#4a4a4a, #2e2e2e);
 	border-left: 1px solid #838383;	 
 	border-right: 1px solid #838383;
+	padding: 0 19px;
+	cursor: pointer;
 }
 
 .active-bottom, footer li:hover{
 	text-decoration: underline;
+	cursor: pointer;
 }
 
 .active-aside, main li:hover{
 	padding-left: 35px;
 	background: #f9f9f9;
+	cursor: pointer;
 }
 
 
