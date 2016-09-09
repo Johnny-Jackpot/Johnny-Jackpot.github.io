@@ -20,7 +20,7 @@ main {
 	background: #074986 url("../images/bg-2.jpg") center top no-repeat;
 	background-size: cover;
 }
-
+/**/
 .main-nav {
 	display: flex;
 	justify-content: flex-end;
